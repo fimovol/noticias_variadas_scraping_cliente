@@ -4,7 +4,7 @@ import Loading from './loading'
 
 const script= gql`
 {
-	noticias{
+	noticias(limit:5){
     nombre
     hora
     img
@@ -12,7 +12,7 @@ const script= gql`
   }
 }
 `
-/*const datatos= {
+/*const datos= {
   'noticias': [
     {
       'nombre': 'BTS: Álbum “Butter” rompió record de ventas en el 2021 y se convierte en un “best seller”',
