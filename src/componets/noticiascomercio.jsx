@@ -12,7 +12,7 @@ const script= gql`
   }
 }
 `
-/*const datos= {
+/*const data= {
   'noticias': [
     {
       'nombre': 'BTS: Álbum “Butter” rompió record de ventas en el 2021 y se convierte en un “best seller”',

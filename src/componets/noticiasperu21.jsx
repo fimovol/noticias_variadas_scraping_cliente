@@ -12,7 +12,7 @@ const script= gql`
   }
 }
 `
-/*const datos= {
+/*const data= {
   "peru21noticias": [
       {
         "img": "https://peru21.pe/resizer/dDb1uTFqOxUCo75npmcioE5Yv_Q=/234x161/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/SXOECV2MYBCSLDL3DXCNBSVDVY.jpg",
