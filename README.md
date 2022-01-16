@@ -7,11 +7,15 @@ https://github.com/fimovol/servidor_scraping_noticias.git
 
 instala las dependencias con:
 
+```
 npm install
+```
 
 corre el servidor con:
 
+```
 npm run dev
+```
 
 ## una imagen de muestra:
 
