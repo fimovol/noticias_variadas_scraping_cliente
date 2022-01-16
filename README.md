@@ -12,3 +12,7 @@ npm install
 corre el servidor con:
 
 npm run dev
+
+## una imagen de muestra:
+
+![imagen aqui](https://raw.githubusercontent.com/fimovol/portafolioj/master/src/fotos/scraping.jpg)
