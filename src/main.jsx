@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom'
 import './index.css'
 import App from './App'
 import Jkanime from './routes/jkanime'
-import Animeflash from './routes/animeflash'
 import {ApolloClient,HttpLink, InMemoryCache, ApolloProvider} from '@apollo/client'
 import { 
   BrowserRouter,
@@ -24,7 +23,6 @@ ReactDOM.render(
       <Routes>
         <Route path='/' element={<App />}/>
         <Route path='/jkanime' element={<Jkanime/>}/>
-        <Route path='/animeflash' element={<Animeflash/>}/>
       </Routes>
     </ApolloProvider>
   </BrowserRouter>
