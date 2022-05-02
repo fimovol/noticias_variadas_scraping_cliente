@@ -13,7 +13,7 @@ import {
 const cliente = new ApolloClient({
   cache: new InMemoryCache(),
   link: new HttpLink({
-    uri:'http://localhost:3120/graphql'
+    uri:'http://ec2-54-160-172-147.compute-1.amazonaws.com:3120/graphql',
   })
 })
 
